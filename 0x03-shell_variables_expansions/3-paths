@@ -1,0 +1,3 @@
+#!/bin/bash
+IFS=':' read -r -a array <<< $PATH
+echo "${#array[@]}"
